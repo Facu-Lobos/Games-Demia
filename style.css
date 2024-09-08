@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+header{
+    background-color: #ffffff;
+    padding: 0px;
+    border: 2px black solid;    
+    /*width: 100%;*/
+
+}
+.caja{
+    width: 938px;
+    position: relative;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 65px;
+    right: 00px;
+    width: 70%;
+}
+nav li{
+    display: inline-block;
+    /*margin: 0 auto;*/
+    padding: 0 0 0px 43px;
+    text-align: center;
+}
+.una-palabra{
+   top: 20px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+
+}
+
+.sector-main{
+    background: url(./imagenes/fondo.jpg);
+    width: 100%;
+}
+.bloque-main{
+    background-color: rgba(9, 49, 149, 0);
+    width: 60%;
+    margin: auto;
+    padding: 17px 0;
+}
+.lista-main li{
+    width: 48.8%;
+    height: 190px;
+    display: inline-block;
+    background-color: blue;
+}
+#ps4{
+    background-image: url(./imagenes/ps4control3.webp);
+    background-size: cover;
+    
+    
+}
+#ps5{
+    background-image: url(./imagenes/ps5Control.jpg);
+    background-size: cover;
+    
+}
+.consolas{
+    margin: 10px 5px 0px 5px;
+    border-radius: 20px;
+}
+.mision{
+    background-color: rgba(9, 49, 149, 0.71);
+    margin: 0px 13px;
+    border-radius: 30px;
+}
+.mision p{
+    color: white;
+    font-size:33px ;
+    padding: 36.4px;
+    margin: 1px 10px 0px 10px;
+    text-align: center;
+}
+footer{
+    border: 2px black solid;
+    padding: 10px 0px;    
+}
+.bloque-footer{
+    display: flex;
+    width: 99.7%;
+    padding: 10px 0;
+    
+}
+.primera-lista{
+    display: flex;
+    width: 30%;
+    margin: 0px auto;
+    align-items: center;
+}
+.primera-lista li{
+    width: 50%;
+    margin: 0px 100px;
+}
+.segunda-lista{
+    width: 30%;
+    margin: 16px 0;
+
+    align-items: center;
+}
+.segunda-lista li{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+   
+}
+.tercera-lista{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin: 0px auto;
+}
+.tercera-lista li{
+    width: 50%;   
+    margin: 0px 100px;
+}
+
+footer p{
+    color: black;
+}
+/*Seccion juegos*/
+
+.bloque-juegos{
+    background-color: rgba(9, 49, 149, 0.71);
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+.bloque-juegos h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 8px 0px 8px 0px;
+    font-weight: bold;
+    
+}
+.bloque-juegos h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bloque-juegos h4, h6{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+.bloque-juegos p{
+    font-size: 10px;
+    color: white;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+.primera-lista-juegos li,.segunda-lista-juegos li,.tercera-lista-juegos li,.cuarta-lista-juegos li,.quinta-lista-juegos li,.sexta-lista-juegos li,.septima-lista-juegos li,.octava-lista-juegos li,.novena-lista-juegos li,.decima-lista-juegos li,.once-lista-juegos li,.doce-lista-juegos li,.trece-lista-juegos li,.catorce-lista-juegos li,.quince-lista-juegos li,.dieciseis-lista-juegos li,.diecisiete-lista-juegos li,.dieciocho-lista-juegos li,.diecinueve-lista-juegos li,.veinte-lista-juegos li,.veintiuno-lista-juegos li,.veintidos-lista-juegos li,.veintitres-lista-juegos li,.veinticuatro-lista-juegos li,.veinticinco-lista-juegos li,.veintiseis-lista-juegos li,.veintisiete-lista-juegos li{
+    width: 15%;
+    
+    background-color: rgba(1, 5, 14, 0.556);
+    display: inline-block;
+    margin: 20px 7px ;
+    border: 2px black solid;
+}
+.bloque-juegos img{
+    height: 250px;
+}
+.bloque-juegos li:hover{
+    transform: scale(1.1);
+}
+.contenedor-letra{
+    background-color: black;
+    width: 10%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.contenedor-abecedario{
+    width: 60%;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+.lista-abecedario{
+    width: 100%;
+}
+.lista-abecedario li{
+    display: inline;
+    width: 5%;
+    margin: 0px 5px;   
+}
+.lista-abecedario a:hover{
+    color: #c78c19;
+}
+
+.lista-abecedario a{
+    color: white;
+    text-decoration: none;
+}
+/*Seccion cada juego*/
+.bloque-cada-juego {
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    background-color:rgba(9, 49, 149, 0.71);
+    border-radius: 20px;
+    padding: 20px;
+}
+.bloque-cada-juego h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+.bloque-cada-juego li{
+    padding: 10px;
+}
+.bloque-cada-juego p{
+    padding: 0px 50px;
+    color: white;
+}
+.contenedor-whatsapp{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 255, 55, 0.84);
+    width: 20%;
+    margin: 8px auto 0px auto;
+    border-radius: 20px;
+    border: 2px black solid;
+    padding: 5px;
+}
+.contenedor-whatsapp a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.contenedor-whatsapp:hover{
+    background-color: rgba(0, 97, 0, 0.986);
+}
+
+@media screen and (max-width: 450px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+        width:100%;
+        padding: 15px 0px 20px 0px;
+    }
+    .caja,  .bloque-main, .lista-main, .lista-header{
+        width: 100%;
+    }
+    header{
+        width: 99%;
+    }
+    .lista-header{
+        text-align: center;
+    }
+    nav li{
+        width: 23%;
+        padding: 0px 0px;
+    }
+    nav a{
+        font-size: 13px;
+    }    
+    .primera-lista, .tercera-lista, footer img{
+        width: 0;
+    }
+    section{
+        text-align: center;
+    }
+    .lista-main{
+        margin: 0 auto;
+    }
+    .lista-main li{
+        width: 46.1%;
+        height: 150px;
+    }
+    .consolas{
+        margin: 3px 5px 0px 5px;
+        
+    }
+    #ps4 {
+        background: url(./imagenes/ps4azul.jpg) no-repeat center center ;
+        background-size: cover;
+    }
+    #ps5{
+        background: url(./imagenes/ps5azul.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .bloque-main p{
+        font-size: 22px;    
+    }
+    .bloque-juegos{
+        width: 80%;
+        padding: 10px px 10px 10px;
+    }
+    .contenedor-letra{
+        width: 50%;
+    }
+    .contenedor-abecedario{
+        width: 80%;
+        align-items: center;
+    }
+    .primera-lista-juegos li,.segunda-lista-juegos li,.tercera-lista-juegos li,.cuarta-lista-juegos li,.quinta-lista-juegos li,.sexta-lista-juegos li,.septima-lista-juegos li,.octava-lista-juegos li,.novena-lista-juegos li,.decima-lista-juegos li,.once-lista-juegos li,.doce-lista-juegos li,.trece-lista-juegos li,.catorce-lista-juegos li,.quince-lista-juegos li,.dieciseis-lista-juegos li,.diecisiete-lista-juegos li,.dieciocho-lista-juegos li,.diecinueve-lista-juegos li,.veinte-lista-juegos li,.veintiuno-lista-juegos li,.veintidos-lista-juegos li,.veintitres-lista-juegos li,.veinticuatro-lista-juegos li,.veinticinco-lista-juegos li,.veintiseis-lista-juegos li,.veintisiete-lista-juegos li{
+        width: 47%;
+        margin: 5px auto 5px 1px;
+    }
+    .bloque-juegos li:hover{
+        transform: scale(1);
+    }
+    .bloque-juegos img{
+        height: 200px;
+    }
+    .bloque-juegos h4, .bloque-juegos h6{
+        font-size: 10px;
+    }
+    .bloque-cada-juego{
+        width: 70%;
+    }
+    .bloque-cada-juego p{
+        padding: 0;
+    }
+    .contenedor-whatsapp{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 451px) and (max-width:699px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+        width:100%;
+        padding: 15px 0px 20px 0px;
+    }
+    .caja,  .bloque-main, .lista-main, .lista-header{
+        width: 100%;
+    }
+    header{
+        width: 99.5%;
+    }
+    .bloque-juegos{
+        width: 99.5%;
+    }
+    .lista-header{
+        text-align: center;
+    }
+    nav li{
+        width: 23%;
+        padding: 0px 0px;
+    }
+    nav a{
+        font-size: 13px;
+    }    
+    .primera-lista, .tercera-lista, footer img{
+        width: 0;
+    }
+    section{
+        text-align: center;
+    }
+    .lista-main{
+        margin: 0 auto;
+    }
+    .lista-main li{
+        width: 46.1%;
+        height: 150px;
+    }
+    .consolas{
+        margin: 3px 5px 0px 5px;
+        
+    }
+    #ps4 {
+        background: url(./imagenes/ps4azul.jpg) no-repeat center center ;
+        background-size: cover;
+    }
+    #ps5{
+        background: url(./imagenes/ps5azul.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .bloque-main p{
+        font-size: 22px;    
+    }
+    .bloque-juegos{
+        width: 80%;
+        padding: 10px px 10px 10px;
+    }
+    .contenedor-letra{
+        width: 50%;
+    }
+    .contenedor-abecedario{
+        width: 80%;
+        align-items: center;
+    }
+    .primera-lista-juegos li,.segunda-lista-juegos li,.tercera-lista-juegos li,.cuarta-lista-juegos li,.quinta-lista-juegos li,.sexta-lista-juegos li,.septima-lista-juegos li,.octava-lista-juegos li,.novena-lista-juegos li,.decima-lista-juegos li,.once-lista-juegos li,.doce-lista-juegos li,.trece-lista-juegos li,.catorce-lista-juegos li,.quince-lista-juegos li,.dieciseis-lista-juegos li,.diecisiete-lista-juegos li,.dieciocho-lista-juegos li,.diecinueve-lista-juegos li,.veinte-lista-juegos li,.veintiuno-lista-juegos li,.veintidos-lista-juegos li,.veintitres-lista-juegos li,.veinticuatro-lista-juegos li,.veinticinco-lista-juegos li,.veintiseis-lista-juegos li,.veintisiete-lista-juegos li{
+        width: 47%;
+        margin: 5px auto 5px 1px;
+    }
+    .bloque-juegos li:hover{
+        transform: scale(1);
+    }
+    .bloque-juegos img{
+        height: 200px;
+    }
+    .bloque-juegos h4, .bloque-juegos h6{
+        font-size: 10px;
+    }
+    .bloque-cada-juego{
+        width: 70%;
+    }
+    .bloque-cada-juego p{
+        padding: 0;
+    }
+    .contenedor-whatsapp{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 700px) and (max-width:1223px){
+    nav{
+        position: absolute;
+        width: 87%;
+        margin: 0 auto;
+        padding: 3px 0 10px 0;
+    }
+    .caja, .lista-main, .lista-header{
+        width: 100%;
+    }
+     footer {
+        width: 99.8%;
+    }
+    header{
+        width: 99.8%;
+    }
+    .lista-header{
+        text-align: center;
+    }
+    nav li{
+        width: 20%;
+        padding: 0px 0 0 0;
+        margin: 10px auto;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    .primera-lista, .tercera-lista, footer img{
+        width: 0;
+    }
+    .segunda-lista{
+        width: 50%;
+    }
+    section{
+        text-align: center;
+    }
+    .lista-main{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .lista-main li{
+        width: 47%;
+        height: 200px;
+    }
+    .mision{
+        width: 96%;
+        margin: 0px auto;
+    }
+    .mision p{
+        padding:  50px;
+        text-align:center;
+        font-size: 28px;
+    }
+    .bloque-juegos{
+        width: 90%;
+        padding: 0px;
+        text-align: center;
+    }
+    .contenedor-letra{
+        width: 25%;
+    }
+    .bloque-juegos img{
+        height: 150px;
+    }
+    .bloque-juegos h4, .bloque-juegos h6{
+        font-size: 7px;
+    }
+    .primera-lista-juegos li,.segunda-lista-juegos li,.tercera-lista-juegos li,.cuarta-lista-juegos li,.quinta-lista-juegos li,.sexta-lista-juegos li,.septima-lista-juegos li,.octava-lista-juegos li,.novena-lista-juegos li,.decima-lista-juegos li,.once-lista-juegos li,.doce-lista-juegos li,.trece-lista-juegos li,.catorce-lista-juegos li,.quince-lista-juegos li,.dieciseis-lista-juegos li,.diecisiete-lista-juegos li,.dieciocho-lista-juegos li,.diecinueve-lista-juegos li,.veinte-lista-juegos li,.veintiuno-lista-juegos li,.veintidos-lista-juegos li,.veintitres-lista-juegos li,.veinticuatro-lista-juegos li,.veinticinco-lista-juegos li,.veintiseis-lista-juegos li,.veintisiete-lista-juegos li{
+        width: 13%;
+        margin: 20px 1.2%;
+    }
+    .contenedor-whatsapp{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1224px){
+    .lista-main, .lista-header{
+        width: 100%;
+    }
+     footer {
+        width: 99.8%;
+    }
+    header{
+        width: 99.8%;
+    }
+    footer{
+        border: 2px black solid;    
+    }
+    .bloque-footer{
+        display: flex;
+        width: 99.7%;
+        padding: 10px 0;
+        
+    }
+    .primera-lista{
+        display: flex;
+        width: 30%;
+        margin: 0px 0px;
+    }
+    .primera-lista li{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        margin: 0px 0px;
+    }
+    .segunda-lista{
+        width: 45%;
+        margin: 16px auto;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .segunda-lista li{
+        text-align: center;
+        width: 60%;
+        padding: 5px;
+       
+    }
+    .tercera-lista{
+        display: flex;
+        align-items: center;
+        width: 30%;
+        margin: 0px auto;
+    }
+    .tercera-lista li{
+        width: 50%;
+        margin: 0px 0px; 
+    }
+    .bloque-main{
+        text-align: center;
+    }
+    .lista-main{
+        width: 100%;
+    }
+
+    .lista-main li{
+        width: 48.3%;
+        align-items: center;
+    }
+    .bloque-juegos{
+        text-align: center;
+    }
+    .primera-lista-juegos li,.segunda-lista-juegos li,.tercera-lista-juegos li,.cuarta-lista-juegos li,.quinta-lista-juegos li,.sexta-lista-juegos li,.septima-lista-juegos li,.octava-lista-juegos li,.novena-lista-juegos li,.decima-lista-juegos li,.once-lista-juegos li,.doce-lista-juegos li,.trece-lista-juegos li,.catorce-lista-juegos li,.quince-lista-juegos li,.dieciseis-lista-juegos li,.diecisiete-lista-juegos li,.dieciocho-lista-juegos li,.diecinueve-lista-juegos li,.veinte-lista-juegos li,.veintiuno-lista-juegos li,.veintidos-lista-juegos li,.veintitres-lista-juegos li,.veinticuatro-lista-juegos li,.veinticinco-lista-juegos li,.veintiseis-lista-juegos li,.veintisiete-lista-juegos li{
+        width: 13%;
+        margin: 20px 1.2%;
+        height: 310px;
+    }
+    .bloque-juegos h4, h6{
+        font-size: 10.5px;
+    }
+    .contenedor-letra{
+        width: 20%;
+    }
+    
+}
